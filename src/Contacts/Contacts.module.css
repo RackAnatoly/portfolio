@@ -1,0 +1,32 @@
+.contactsBlock {
+    height: 50vh;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content:   space-between;
+    align-items: center;
+    border: 1px solid;
+    height: 200px;
+    width: 300px;
+}
+input{
+    width: 100%;
+}
+textarea{
+    height: 70%;
+    width: 100%;
+}
