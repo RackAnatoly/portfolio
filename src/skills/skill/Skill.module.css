@@ -9,6 +9,8 @@
     /*padding: 10px;*/
     text-align: center;
     width: 30%;
+    padding: 10px;
+    /*box-sizing: border-box;*/
 }
 
 .icon {
