@@ -10,7 +10,11 @@ export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={s.skillsContainer}>
-                <h2 className={s.title}>Skills</h2>
+                <div className={s.head}>
+                    <h2 className={s.back}>What I do</h2>
+                    <p className={s.front}>My Skills</p>
+                </div>
+
                 <div className={s.skills}>
                     <Skill title={'HTML/CSS'} description={htmlCssDescription}/>
                     <Skill title={'Javascript'} description={jsDescription}/>

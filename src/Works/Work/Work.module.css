@@ -1,5 +1,5 @@
 .work {
-    width: 30%;
+    width: 45%;
     background-color: #7a2a2a;
     display: flex;
     flex-direction: column;
@@ -13,4 +13,10 @@
     height: 60px;
     width: 60px;
     background-color: #403552;
+}
+
+@media screen and (max-width: 767px){
+    .work {
+        width: 100%;
+    }
 }

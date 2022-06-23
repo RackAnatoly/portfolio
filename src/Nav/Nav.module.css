@@ -1,6 +1,10 @@
 .nav{
     border: 1px solid bisque;
     display: flex;
-    width:300px;
-    justify-content: space-between;
+    width:100%;
+    justify-content: center;
+    /*padding: 20px*/
+}
+a{
+    padding: 20px;
 }

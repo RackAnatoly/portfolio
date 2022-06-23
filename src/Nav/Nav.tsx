@@ -5,6 +5,7 @@ export const Nav = () => {
         <div className={s.nav}>
             <a href="">Home</a>
             <a href="">About</a>
+            <a href="">Skills</a>
             <a href="">Portfolio</a>
             <a href="">Contact</a>
         </div>

@@ -6,9 +6,12 @@ export const Hire = () => {
     return (
         <div className={s.hireBlock}>
             <div className={s.container}>
-                <h2>Considering remote work</h2>
+                <div className={s.head}>
+                    <h2 className={s.back}>Hire me</h2>
+                    <p className={s.front}>Considering remote work</p>
+                </div>
                 <div>
-                    <button>Hire me</button>
+                    <a href=''>Hire me</a>
                 </div>
 
             </div>

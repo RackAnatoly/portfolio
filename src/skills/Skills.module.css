@@ -1,6 +1,6 @@
 .skillsBlock {
-    min-height: 100vh;
-    background-color: #395d39;
+    min-height: 100%;
+    background-color: #212529;
 }
 
 .skillsContainer {
@@ -12,6 +12,7 @@
     height: 100%;
     width: 80%;
     margin: 0 auto;
+    font-family: "Poppins", Sans-serif;
 }
 
 .title {
@@ -19,10 +20,40 @@
 }
 
 .skills {
-    border: 1px solid;
-    width: 100%;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.back {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, .5);
+    font-size: 2.25rem;
+    opacity: 0.1;
+    font-size: calc(1.95rem + 8.4vw);
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.front{
+    font-weight: 600;
+    font-size: 2.25rem;
+    color:white;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    margin-top: -50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 555px){
 
 }

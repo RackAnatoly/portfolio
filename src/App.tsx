@@ -8,6 +8,7 @@ import {Works} from "./Works/Works";
 import {Hire} from "./Hire/Hire";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {About} from "./About/About";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <div className="App">
             <Header/>
             <Home/>
+            <About/>
             <Skills/>
             <Works/>
             <Hire/>
