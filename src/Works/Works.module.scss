@@ -1,0 +1,72 @@
+.worksBlock {
+  height: auto;
+  background-color: #343a40;
+  padding: 100px 0;
+
+  .worksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+
+    .titles {
+      text-align: center;
+      position: relative;
+      display: flex;
+      margin-bottom: -50px;
+
+      .back {
+        font-weight: 600;
+        color: rgba(255, 255, 255, .5);
+        font-size: 2.25rem;
+        opacity: 0.1;
+        font-size: calc(1.95rem + 8.4vw);
+        text-transform: uppercase;
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .front {
+        font-weight: 600;
+        font-size: 2.25rem;
+        color: white;
+        align-self: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+        text-align: center;
+      }
+    }
+
+    .works {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+  }
+}
+
+
+/*.lineBorder{*/
+/*    !*position: absolute;*!*/
+/*    border-bottom: 1px solid white;*/
+/*    width: 100px;*/
+/*    !*margin-top: 90px;*!*/
+/*    !*align-self: center;*!*/
+/*    !*text-align: center;*!*/
+/*    font-weight: 600;*/
+/*    font-size: 2.25rem;*/
+/*    color:white;*/
+/*    align-self: center;*/
+/*    position: absolute;*/
+/*    margin-top: -50px;*/
+/*    right: 90px;*/
+/*    text-align: center;*/
+
+
+/*}*/

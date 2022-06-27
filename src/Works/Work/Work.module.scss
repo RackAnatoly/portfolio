@@ -1,0 +1,68 @@
+.work {
+  width: 45%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  padding: 0px;
+  color: white;
+
+  .icon {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #403552;
+    margin-bottom: 25px;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .view {
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+  }
+
+  .title {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    background-color: rgb(220, 53, 69);
+  }
+
+  .description {
+    color: rgba(255, 255, 255, .5);
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+
+
