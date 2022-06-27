@@ -1,0 +1,137 @@
+@import '../styles/sass/variables';
+
+.about {
+  min-height: 100%;
+  background-color: #343a40;
+  width: 100%;
+  padding-bottom: 50px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Poppins", Sans-serif;
+    color: $textColor;
+
+    .head {
+      text-align: center;
+      position: relative;
+      display: flex;
+      margin-bottom: -50px;
+
+      .back {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: rgba(255, 255, 255, .5);
+        font-size: 2.25rem;
+        opacity: 0.1;
+        font-size: calc(1.95rem + 8.4vw);
+        text-transform: uppercase;
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .front {
+        font-weight: 600;
+        font-size: 2.25rem;
+        color:white;
+        align-self: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+        text-align: center;
+      }
+    }
+
+    //h2 {
+    //  font-weight: 600;
+    //}
+    //
+    //.text {
+    //  padding: 10px;
+    //}
+
+    .description {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .info {
+        width: 100%;
+
+        .primary {
+          color: #20c997;
+        }
+
+        .text {
+          color: rgba(255, 255, 255, .5);
+        }
+      }
+
+      .contact {
+        width: 100%;
+        .summary{
+          ul{
+            padding: 0;
+            li{
+              border-bottom: 1px solid rgba(250, 250, 250, 0.12);
+              list-style-type: none;
+              padding-top: 12px;
+              padding-bottom: 12px;
+              font-weight: 600;
+              .me{
+                margin-right: 0.5rem
+              }
+            }
+          }
+          button{
+            background-color: #20c997;
+            border-color: #20c997;
+            padding: 0.8rem 2.6rem;
+            font-weight: 500;
+            border-width: 2px;
+            transition: all 0.5s ease;
+            border-radius: 50rem;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .summary {
+      display: block;
+      /*flex-direction: column;*/
+      /*!*justify-content: flex-start;*!*/
+      /*align-items: flex-start;*/
+
+      //ul {
+      //  display: block;
+      //  list-style-type: disc;
+      //  margin-block-start: 1em;
+      //  margin-block-end: 1em;
+      //  margin-inline-start: 0px;
+      //  margin-inline-end: 0px;
+      //  padding-inline-start: 40px;
+      //}
+
+    }
+
+  }
+}
+
+//
+//.head::after{
+//    content: '';
+//    position: absolute;
+//    background-color: #20c997;
+//    width: 55px;
+//    height: 3px;
+//    bottom:130px;
+//    left:50%;
+//    transform: translate(-50%,50%);
+//}

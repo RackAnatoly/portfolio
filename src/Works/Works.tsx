@@ -24,7 +24,7 @@ export const Works = () => {
                 </div>
                 <div className={s.works}>
                     <Work style={social} title={"Social network"}
-                          description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deserunt dignissimos dolor doloremque eligendi impedit iure laborum necessitatibus nihil nisi, obcaecati officia omnis optio sit soluta. Beatae libero obcaecati quod."}/>
+                          description={"Lorem ipsum doBeatae libero obcaecati quod."}/>
                     <Work style={todolist} title={"Todolist"} description={"Lorem"}/>
                 </div>
             </div>

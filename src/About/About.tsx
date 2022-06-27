@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './About.module.css'
+import s from './About.module.scss'
 
 export const About = () => {
         return (
@@ -9,23 +9,28 @@ export const About = () => {
                         <h2 className={s.back}>About me</h2>
                         <p className={s.front}>Know Me More</p>
                     </div>
-                    <h3>I'm Anatoly Rack, a Web Developer</h3>
-                    <div className={s.text}>
-                        I help you build brand for your business at an affordable price. Thousands of clients have procured
-                        exceptional results while working with our dedicated team. when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
-                        Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum
-                        has been the industry's standard dummy text ever when an unknown printer took a galley.
-                    </div>
-                    <div className={s.summary}>
-                        <ul>
-                            <li>Name:Anatoly Rack</li>
-                            <li>Email:rack.anatoly@gmail.com</li>
-                            <li>Age:33</li>
-                            <li>From:Gdansk,Poland</li>
-                        </ul>
-                        <div>
-                            <button>Download CV</button>
+                    <div className={s.description}>
+                        <div className={s.info}>
+                            <h2>I'm <span className={s.primary}>Anatoly Rack,</span> a Web Developer</h2>
+                            <p className={s.text}>
+                                I'am Front-End developer with experience and good knowledge in creating and optimization SPA using React, Redux ,HTML,CSS, JS and accompanying technologies.
+                                Now, i have seeking a front-end developer trainee position with a company which will require me to improve my skills, abilities in the IT field to ensure the company's success.
+                                Ready to consider project work and full-time employment.
+                                My free time is dedicated to Codewars, learning new technologies, and impove my English language skills.
+                            </p>
+                        </div>
+                        <div className={s.contact}>
+                            <div className={s.summary}>
+                                <ul>
+                                    <li> <span className={s.me}>Name:</span> Anatoly Rack</li>
+                                    <li><span className={s.me}>Email:</span>rack.anatoly@gmail.com</li>
+                                    <li><span className={s.me}>Age:</span>33</li>
+                                    <li><span className={s.me}>From:</span>Gdansk,Poland</li>
+                                </ul>
+                                <div>
+                                    <button>Download CV</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 .contactsBlock {
     height: 100%;
-    background-color: #343a40;
+    background-color: #212529;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -8,7 +9,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -20,7 +20,6 @@
     flex-direction: column;
     justify-content:   space-between;
     align-items: center;
-    border: 1px solid;
     height: 200px;
     width: 80%;
 }
@@ -52,6 +51,7 @@ textarea{
     text-align: center;
     position: relative;
     display: flex;
+    margin-bottom: -50px
 }
 
 .front{
@@ -66,6 +66,17 @@ textarea{
 }
 .preForm{
     color:white;
+}
+.btn{
+    background-color: #20c997;
+    border-color: #20c997;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;
+    transition: all 0.5s ease;
+    border-radius: 50rem;
+    color: white;
+    margin-top: 30px;
 }
 @media screen and (max-width: 550px){
     .form {
