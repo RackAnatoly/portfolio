@@ -11,9 +11,10 @@ export const Contacts = () => {
                 </div>
                 <h2 className={s.preForm}>Send me a note</h2>
                 <form className={s.form}>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <textarea></textarea>
+                    <input name="name" type="text" placeholder={"Name"}/>
+                    <input name="email" type="text" placeholder={"Email"}/>
+                    <textarea name="form-message" className="form-control" rows={5}
+                              placeholder={"Tell us more about your needs........"}></textarea>
                     <button className={s.btn}>Send</button>
                 </form>
             </div>

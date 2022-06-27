@@ -20,19 +20,9 @@
     flex-direction: column;
     justify-content:   space-between;
     align-items: center;
-    height: 200px;
+    height: 100%;
     width: 80%;
 }
-input{
-    width: 100%;
-}
-textarea{
-    height: 70%;
-    width: 100%;
-}
-/*.btn{*/
-/*    padding: 10px 20px;*/
-/*}*/
 
 .back {
     font-family: 'Poppins', sans-serif;
@@ -77,6 +67,48 @@ textarea{
     border-radius: 50rem;
     color: white;
     margin-top: 30px;
+}
+input{
+    border-color: #232a31;
+    background: #232a31;
+    color: #fff;
+    padding: 0.81rem 0.96rem;
+    height: inherit;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0;
+    font-family: inherit;
+    margin-top:1.5rem;
+}
+textarea{
+    border-color: #232a31;
+    background: #232a31;
+    color: #fff;
+    padding-top: 0.81rem;
+    padding-right: 0.96rem;
+    padding-bottom: 0.81rem;
+    padding-left: 0.96rem;
+    height: inherit;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    resize: vertical;
+    margin-top:1.5rem;
+
 }
 @media screen and (max-width: 550px){
     .form {
